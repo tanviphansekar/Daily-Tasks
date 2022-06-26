@@ -1,0 +1,47 @@
+#submit_btn{
+    
+}
+.random{
+    color: gray;
+}
+table{
+    background-color: lightgrey;
+    border-color: rgb(29, 28, 28);
+}
+body{
+    background-color:lemonchiffon;
+}
+.mainheader{
+    width: 100%;
+    height: 40px;
+    background-color:brown;
+    border:20px;
+    border-color: red;
+   
+}
+.content{
+    width: 100%;
+    height: 40px;
+
+}
+.red{
+    color: lemonchiffon;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+    letter-spacing: 20px;
+}
+.green{
+    color: white;
+    font-family: sans-serif;
+    background-color: green;
+    padding-left: 20px;
+
+}
+.list{
+    color: red;
+    font-style: italic;
+}
+
+
+

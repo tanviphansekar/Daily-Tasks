@@ -1,0 +1,35 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+|html, body {
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #7b5edd;	
+  background: linear-gradient(to right, #6d4add, #8d56e5);
+}
+
+.sidebar{
+  background: linear-gradient(to bottom, rgb(98, 253, 227), rgb(21, 152, 130));
+}
+
+.content-1 {
+    background: linear-gradient(to bottom right, rgb(85, 0, 255), rgb(94, 183, 239));
+}
+
+.content-2 {
+  background: linear-gradient(to bottom right, rgb(85, 0, 255), rgb(94, 183, 239));
+}
+.content-3 {
+  background: linear-gradient(to bottom right, rgb(85, 0, 255), rgb(94, 183, 239));
+}
+.footer{
+  background: linear-gradient(to right, #6d4add, #8d56e5);
+}
