@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=C, initial-scale=1.0">
+    <title>QuantumDashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="box">
+        <header>
+            <nav class="navbar">
+                <img class="headerLogo" src="/icons/logo used in header.svg" alt="headerLogo">
+                <div class="navbar-menu">
+                    <a class="menulinks" href="#">DASHBOARD</a>
+                    <a class="menulinks" href="#">CONTENT</a>
+                    <a class="menulinks" href="#">USERS</a>
+                    <a class="menulinks" href="#">REPORTS</a>
+                    <a class="menulinks" href="#">ADMIN</a>
+                </div>
+                <div class="navbar-icons">
+                    <img class="icons" src="/icons/alerts.svg" alt="alertsicon">
+                    <img class="icons" src="/icons/announcements.svg" alt="announcements">
+                    <img class="icons" src="/icons/account_circle.svg" alt="profile photo">
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="containernav">
+                <div class="first-slider">
+                    <img src="/icons/courses.svg" alt="courses">
+                    <p>
+                        4 Courses
+                    </p>
+                </div>
+                <div class="first-slider">
+                    <img src="/icons/classes.svg" alt="class">
+                    <p>
+                        4 Classes
+                    </p>
+                </div>
+            </div>
+
+            <div class="sortingDiv">
+                <div class="fourcourses">
+                    <p>Showing 4 of 4 courses</p>
+                </div>
+                <div class="subsorting">
+                    <p id="sortby">Sort By :</p>
+                    <select class="coursename" name="coursesname">
+                        <option value="">Course name</option>
+                        <option value="">Mr. Frank's Class B</option>
+                    </select> 
+                    <span>
+                    <img src="/icons/sort.svg" alt="sort" srcset="">
+                    </span>
+                </div>
+            </div>
+    
+            <!-- card -->
+    
+            <div class="allcart">
+                <!-- 1st cart -->
+                <div class="card">
+                    <div class="upper">
+                        <img class="card-img" src="/images/imageMask-1.svg" alt="cardimg">
+                        <div class="card-content" style="width: 70%;">
+                            <div class="acc" style="display: flex; justify-content: space-between;">
+                                <h2 style="font-size:16px;">Acceleration</h2>
+                                <img src="/icons/favourite.svg" alt="favourite">
+                            </div>
+                            <p>Physics <span> | </span> Grade 7 <span style="color: green;">+2</span></p>
+                            <p style="padding-top: 2px;"><span style="padding-right:4px ;"> <b>4</b> </span>Units <span
+                                    style="padding:0px 4px ;">18 </span>Lessons<span style="padding:0px 4px ;">24 </span>
+                                Topics </p>
+    
+                            <select class="coursesname" name="coursesname"
+                                style="padding: 10px 0px; margin-top: 3px; border: none; border-bottom: 2px solid #000000;">
+                                <option value="">Mr. Frank's Class B</option>
+                                <option value="">Mr. Frank's Class B</option>
+                            </select>
+                            <p style="padding-top: 8px;"> 50 Students <span style="padding-right:4px ;">|</span> 21-Jan-2020
+                                - 21-Aug-2020 </p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="lowerdiv">
+                        <img src="/icons/preview.svg" alt="preview">
+                        <img src="/icons/manage course.svg" alt="ds">
+                        <img src="/icons/grade submissions.svg" alt="submissions">
+                        <img src="/icons/reports.svg" alt="report">
+                    </div>
+    
+                </div>
+    
+                <!-- 2nd cart -->
+                <div class="card">
+                    <div class="upper">
+                        <img class="card-img" src="/images/imageMask-2.svg" alt="cardimg">
+                        <div class="card-content" style="width: 70%;">
+                            <div class="acc" style="display: flex; justify-content: space-between;">
+                                <h2 style="font-size:16px;">Displacement, Velocity and Speed</h2>
+                                <img src="/icons/favourite.svg" alt="favourite">
+                            </div>
+                            <p>Physics <span> | </span> Grade 6 <span style="color: green;"> +3</span></p>
+                            <p style="padding-top: 2px;"><span style="padding-right:4px ;"> <b>2</b> </span>Units <span
+                                    style="padding:0px 4px ;">15 </span>Lessons<span style="padding:0px 4px ;">20 </span>
+                                Topics </p>
+                            <select class="coursesname" name="coursesname"
+                                style="padding: 10px 0px; opacity: 0.3; margin-top: 3px; border: none; border-bottom: 2px solid #000000;">
+                                <option value="">No Classes</option>
+                                <option value="">Mr. Frank's Class B</option>
+                                <option value="">Mercedes</option>
+                                <option value="">Audi</option>
+                            </select>
+                            <!-- <p style="padding-top: 8px;"> 50 Students <span style="padding-right:4px ;">|</span> 21-Jan-2020 - 21-Aug-2020 </p> -->
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="lowerdiv">
+                        <img src="/icons/preview.svg" alt="preview">
+                        <img style="opacity: 0.4;" src="/icons/manage course.svg" alt="ds">
+                        <img style="opacity: 0.4;" src="/icons/grade submissions.svg" alt="submissions">
+                        <img src="/icons/reports.svg" alt="report">
+                    </div>
+    
+                </div>
+    
+                <!-- 3rd cart -->
+                <div class="card">
+                    <div class="upper">
+                        <img class="card-img" src="/images/imageMask-3.svg" alt="cardimg">
+                        <div class="card-content" style="width: 70%;">
+                            <div class="acc" style="display: flex; justify-content: space-between;">
+                                <h2 style="font-size:16px;">Introduction to Biology: Micro organisms and how they affec...
+                                </h2>
+                                <img src="/icons/favourite.svg" alt="favourite">
+                            </div>
+                            <p>Biology <span> | </span> Grade 4 <span style="color: green;">+1</span></p>
+                            <p style="padding-top: 2px;"><span style="padding-right:4px ;"> <b>4</b> </span>Units <span
+                                    style="padding:0px 4px ;">18 </span>Lessons<span style="padding:0px 4px ;">24 </span>
+                                Topics </p>
+    
+                            <select class="coursesname" name="coursesname"
+                                style="padding: 10px 0px; margin-top: 3px; border: none; border-bottom: 2px solid #000000;">
+                                <option value="">All Classes</option>
+                                <option value="">Mr. Frank's Class B</option>
+                                <option value="">Mercedes</option>
+                                <option value="">Audi</option>
+                            </select>
+                            <p style="padding-top: 8px;"> 300 Students </p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="lowerdiv">
+                        <img src="/icons/preview.svg" alt="preview">
+                        <img style="opacity: 0.4;" src="/icons/manage course.svg" alt="ds">
+                        <img style="opacity: 0.4;" src="/icons/grade submissions.svg" alt="submissions">
+                        <img src="/icons/reports.svg" alt="report">
+                    </div>
+    
+                </div>
+                <!-- 4th cart -->
+                <div class="card">
+                    <div class="upper">
+                        <img class="card-img" src="/images/imageMask.svg" alt="cardimg">
+                        <div class="card-content" style="width: 70%;">
+                            <div class="acc" style="display: flex; justify-content: space-between;">
+                                <h2 style="font-size:16px;">Introduction to High School Mathematics</h2>
+                                <img src="/icons/favourite.svg" alt="favourite">
+                            </div>
+                            <p>Mathematics <span> | </span> Grade 8 <span style="color: green;">+3</span></p>
+                            <p style="padding-top: 2px;"><span style="padding-right:4px ;"> <b>4</b> </span>Units <span
+                                    style="padding:0px 4px ;">18 </span>Lessons<span style="padding:0px 4px ;">24 </span>
+                                Topics </p>
+    
+                            <select class="coursesname" name="coursesname"
+                                style="padding: 10px 0px; margin-top: 3px; border: none; border-bottom: 2px solid #000000;">
+                                <option value="">Mr. Frank's Class A</option>
+                                <option value="">Mr. Frank's Class B</option>
+                                <option value="">Mercedes</option>
+                                <option value="">Audi</option>
+                            </select>
+                            <p style="padding-top: 8px;"> 44 Students <span style="padding-right:4px ;">|</span> 21-Jan-2020
+                                - 21-Aug-2020 </p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="lowerdiv">
+                        <img src="/icons/preview.svg" alt="preview">
+                        <img src="/icons/manage course.svg" alt="ds">
+                        <img src="/icons/grade submissions.svg" alt="submissions">
+                        <img src="/icons/reports.svg" alt="report">
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+        </main>
+    
+        <footer>
+            <div id="footerdiv">
+                <img src="/icons/logo used in footer.svg" alt="footer" srcset="">
+                <div class="footer-content">
+                    <p class="ft-p"> | <span style="padding-left: 10px;"> Copyright</span> <span> &copy;</span> 2020-2021
+                        <span style="padding-left: 8px;">Zeus Systems Pvt. Ltd.</span>
+                        <span style="padding-left: 8px;">All rights reserved.</span>
+                    </p>
+    
+                </div>
+            </div>
+        </footer>
+    
+    </div>
+</body>
+</html>
